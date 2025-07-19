@@ -1,2 +1,3 @@
-# Personal_Finance_B
-Small project to efficiently manage my personal finances
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
