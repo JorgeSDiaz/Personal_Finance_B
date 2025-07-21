@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/JorgeSDiaz/Personal_Finance_B/cmd/server"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	server.Run()
 }
