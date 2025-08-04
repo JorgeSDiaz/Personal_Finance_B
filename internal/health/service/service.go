@@ -8,8 +8,8 @@ func NewService() *HealthService {
 	return &HealthService{}
 }
 
-func (s *HealthService) Check() *models.HealthResponse {
-	return &models.HealthResponse{
+func (s *HealthService) Check() models.HealthResponse {
+	return models.HealthResponse{
 		Response: "Ok!",
 	}
 }
